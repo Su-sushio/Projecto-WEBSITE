@@ -7,29 +7,30 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
 </head>
 <body>
-   <div class="container">
-	 <header class="header">
-	 <nav class="navbar navbar-default navbar-fixed-top">
-	 <a class="navbar-brand" href="#">CheckIT</a>
-	 <div class="top navbar">
-   <div class="container">
-	 <ul class="nav">
-
-                            <li class="nav-item"><a class="nav-link" href="#home" class="badge badge-light">Home</a></li>
-
-                            <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-
-                            <li class="nav-item"><a class="nav-link" href="#description">Vantagens</a></li>
-
-                            <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
-
-                            <li class="nav-item"><a class="nav-link" href="#advantages">Preços</a></li>
-
-                            <li class="nav-item"><a class="nav-link" href="#contacts">Contactos</a></li>
-
-        </ul>
-    </div>
-    </nav>
+  <img src="..." class="img-fluid" alt="Responsive image">
+   <header class="header"> <img src="..." class="rounded float-right" alt="...">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#advantages">Vantagens</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     </header>
 
     <section class="home-section" id="home">
@@ -37,16 +38,25 @@
     <div class="row">
         <div class="col-md-6 padding-top-80">
             <h1>CheckIT: A solução que simplifica as suas compras</h1>
-    	   <p>Este comparador de produtos agiliza e organiza as suas pesquisas. Evite as compras impulsivas e tome uma decisão consciente de acordo com as suas possibilidades.</p>
+         <p>Este comparador de produtos agiliza e organiza as suas pesquisas. Evite as compras impulsivas e tome uma decisão consciente de acordo com as suas possibilidades.</p>
+         <a href="#" class="btn-blue scrool">Adquira Já!</a>
+        <div class="col-md-6">
+            <img src="imagens\imagem_home.jpg" class= "img-fluid" width="400px" height= auto alt="">
         </div>
-        <div class="col-md-4">
-            <img src="C:\Desenvolvimento\Projecto-WEBSITE\Projecto-WEBSITE\imagens\imagem_home.jpg" class= "rounded-circle" width="400px" alt="poupar tempo">
-        </div>
+      </div>
     </div>
-</div>
     </section>
 
-    <section class="section-grey section-top-border" id="about">
+        <section class="section-grey section-top-border" id="about">
+        <div class="container">
+             <div class="col-md-12 text-center">
+                    <div class="p-3 mb-2 bg-info text-white text-uppercase">SOBRE</div>   
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Ut consequat semper viverra nam libero. Dignissim sodales ut eu sem integer vitae justo. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Sem viverra aliquet eget sit amet. At consectetur lorem donec massa sapien faucibus et. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Volutpat ac tincidunt vitae semper quis lectus nulla at. Aenean et tortor at risus viverra adipiscing at in. Interdum posuere lorem ipsum dolor sit amet. Id diam maecenas ultricies mi eget. In vitae turpis massa sed elementum. Erat pellentesque adipiscing commodo elit. Pellentesque habitant morbi tristique senectus et netus et. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Cursus sit amet dictum sit. 
+                </div>
+    </div>
+    </section>
+
+    <section class="section-grey section-top-border" id="advantages">
         <div class="container">
              <div class="col-md-12 text-center">
                     <div class="p-3 mb-2 bg-info text-white text-uppercase">VANTAGENS</div>
@@ -69,22 +79,22 @@
 
   <!--<p>Reúna numa só <strong>aplicação</strong> todas as informações que precisa antes de tomar qualquer decisão de compra</p>
 
-	<div class="container">
+  <div class="container">
     <form>
-    	<div class="form-group">
-    		<label for="exampleInputEmail1">Email address</label>
-    		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    		</div>
-  		<div class="form-group">
-    		<label for="exampleInputPassword1">Password</label>
-    		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  		</div>
-  		<div class="form-group form-check">
-    		<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    		<label class="form-check-label" for="exampleCheck1">Check me out</label>
-  		</div>
-  		<button type="submit" class="btn btn-primary">Submit</button>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div class="container">
 <div class="col-md-12 text-center">
@@ -106,7 +116,7 @@
   <div class="card">
     <!--<img src="..." class="card-img-" alt="...">-->
     <div class="card-body">
-      <h2 class="card-title">Pacote Médio</h2>
+      <h2 class="card-title">Pacote Pessoal</h2>
       <h4 class="card-text">Por 25€</h4>
       <p class="card-text"><small class="text-left">
            <ul>
