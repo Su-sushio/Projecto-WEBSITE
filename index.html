@@ -1,169 +1,254 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="autores" content="Álvaro, Carla, Márcia, Susana">
-  <title>CheckIT</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="autores" content="Álvaro, Carla, Márcia, Susana">
+    <title>CheckIT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<!--<img src="..." class="img-fluid" alt="Responsive image">
-   <header class="header"> <img src="..." class="rounded float-right" alt="...">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
-<header>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav>
-        <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-          <a class="navbar-brand" href="#home">CheckIT</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#advantages">Vantagens</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#prices">Preços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts">Contactos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <header class= "header">
 
-    <section class="home-section" id="home">
-          <div class="col-md-12 text-center">
-            <h1>CheckIT: A solução que simplifica as suas compras</h1>
-            <p>Este comparador de produtos agiliza e organiza as suas pesquisas. Evite as compras impulsivas e tome uma decisão consciente de acordo com as suas possibilidades.</p>
-            <a href="#" class="btn-blue scrool">Adquira Já!</a>
-            <div class="col-md-6">
-              <img src="imagens\imagem_home.jpg" class= "img-fluid" width="400px" height= auto alt="">
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <nav class="navbar navbar-expand-lg">
+
+                    <!--logo -->
+                    <img src="imagens\Logo_CheckIT-05.jpg" id = "Logo">
+
+                    <!-- terminar logotipo -->
+
+                    <!--responsive-->  
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <--<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+
+                    <!--barra de navegação-->
+                    <!--<nav class="navbar navbar-expand-lg navbar-light bg-grey">-->
+                        <!--navbar toggler-->
+                        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+
+<!--<a class="navbar-brand" href="#home">CheckIT</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>-->
+
+
+
+
+<div class="navbar-nav" id="navbar">
+
+    <li><a class="menu-item" href="#home">Home</a></li><br>
+
+    <li><a class="menu-item" href="#about">Sobre</a></li>
+
+    <li><a class="menu-item" href="#advantages">Vantagens</a></li>
+
+    <li><a class="menu-item" href="#prices">Preços</a></li>
+
+    <li><a class="menu-item" href="#contacts">Contactos</a></li>
+</div>
+</div>
+</nav>
+</nav>
+</div>
+</nav>
+</header>
+
+<section class="home-section" id="home">
+    <div class="col-md-12 text-center">
+        <img src="imagens\Imagem_Header.jpg" class= "img-fluid" width="800px" height=auto alt=""  id="imagem">
+        <h1><b>CheckIT:</b> A solução que 
+            <br>simplifica as suas compras</h1>
+            <br>
+            <h4>Este comparador de produtos agiliza 
+                <br>e organiza as suas pesquisas.<br>
+                <br>
+                Evite as compras impulsivas e tome <br> 
+                uma decisão consciente de acordo com <br>
+            as suas possibilidades.</h4>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success buttonV" id="buttonAdiraJa">Aquira já!</button>
+            <br>
+            <br>
+            <div>
             </div>
-          </div>
+            <br>
+            <br>
         </div>
-      </section>
+    </section>
 
-      <section class="section-grey section-top-border" id="about">
+    <section class="section-grey section-top-border" id="about">
         <div class="col-md-12 text-center">
-            <div class="p-3 mb-2 bg-info text-white text-uppercase">SOBRE</div> 
-           <!--<div class="col-md-12 text-center">-->
-             
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Ut consequat semper viverra nam libero. Dignissim sodales ut eu sem integer vitae justo. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Sem viverra aliquet eget sit amet. At consectetur lorem donec massa sapien faucibus et. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Volutpat ac tincidunt vitae semper quis lectus nulla at. Aenean et tortor at risus viverra adipiscing at in. Interdum posuere lorem ipsum dolor sit amet. Id diam maecenas ultricies mi eget. In vitae turpis massa sed elementum. Erat pellentesque adipiscing commodo elit. Pellentesque habitant morbi tristique senectus et netus et. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Cursus sit amet dictum sit. 
-          </div>
+            <div class="p-3 mb-4 bg-info text-white text-uppercase">SOBRE</div> 
+            <h4>As possibilidades desta Aplicação:</h4>
+            <p>Esta aplicação tem como objetivo facilitar a comparação de produtos, serviços ou qualquer outro bem que possa ser comprado por parte de um consumidor, ficando à sua consideração se pretende comparar apenas o preço ou se quer introduzir outras características que possam influenciar a sua decisão de compra.</p>
         </div>
-      </section>
+    </div>
 
-      <section class="section-grey section-top-border" id="advantages">
-         <div class="col-md-12 text-center">
-          <div class="p-3 mb-2 bg-info text-white text-uppercase">VANTAGENS</div>
-          <h1></h1>
-          <h4>Com esta aplicação pode organizar a sua comparação de preços. O utilizador pode:</h4>
-          <div class="col-md-12 text-left">
+</section>
+<br>
+<br>
+<section class="section-grey section-top-border" id="advantages">
+    <div class="col-md-12 text-center">
+        <div class="p-3 mb-4 bg-info text-white text-uppercase">VANTAGENS</div>
+        <h4>Com esta aplicação pode organizar a sua comparação de preços. O utilizador pode:</h4>
+        <div class="col-md-12 text-left">
             <ul>
-              <li>Criar listas de produtos.</li>
-              <li>Definir as características que pretende comparar.</li>
-              <li>Associar uma ou várias imagens.</li>
-              <li>Inserir notas.</li>
-              <li>Aceder à loja virtual para efetuar a compra online.</li>
-              <li>Ir diretamente para a página web do produto para ter acesso à sua descrição pormenorizada.</li>
-              <li>Alterar os dados introduzidos</li>
-              <li>Fazer consulta/alterações em qualquer dispositivo (tablet, telemóvel, computador)</li>
+                <li>Criar listas de produtos.</li>
+                <li>Definir as características que pretende comparar.</li>
+                <li>Associar uma ou várias imagens.</li>
+                <li>Inserir notas.</li>
+                <li>Aceder à loja virtual para efetuar a compra online.</li>
+                <li>Ir diretamente para a página web do produto para ter acesso à sua descrição pormenorizada.</li>
+                <li>Alterar os dados introduzidos</li>
+                <li>Fazer consulta/alterações em qualquer dispositivo (tablet, telemóvel, computador)</li>
             </ul>       
-          </div>
         </div>
-      </section>
+    </div>
+</section>
 
-      <section class="section-grey section-top-border" id="prices"> 
-          <div class="col-md-12 text-center">
-            <div class="p-3 mb-2 bg-info text-white text-uppercase">PREÇOS</div>
-            <div class="card-group">
-              <div class="card">
+
+<br>
+<br>
+
+
+<section class="section-grey section-top-border" id="prices"> 
+    <div class="col-md-12 text-center">
+        <div class="p-3 mb-4 bg-info text-white text-uppercase">PREÇOS</div>
+        <div class="card-group">
+            <div class="card">
                 <div class="card-body">
-                  <h2 class="card-title">Pacote Básico</h2> 
-                    <h4 class="card-text">Apenas 10€</h4>
+                    <img src="imagens\Icons-01.jpg" class= Icons>
+                    <h2 class="card-title">Pacote Básico</h2> 
+                    <h5 class="card-text">Apenas 10€</h5>
                     <p class="card-text"><small class="text-left">
-                      <ul>
-                        <li>Criar listas personalizadas para 5 produtos diferentes.</li>
-                        <li>Adicionar links para cada produto.</li>
-                        <li>Associar uma imagem.</li>
-                      </ul>
+                        <ul>
+                            <li>Criar listas personalizadas para 5 produtos diferentes.</li>
+                            <li>Adicionar links para cada produto.</li>
+                            <li>Associar uma imagem.</li>
+                        </ul>
                     </small></p>
-                  </div>
+                    <button type="submit" class="btn btn-success buttonV" id="buttonAdiraJa">Aquirir</button>
                 </div>
-                <div class="card">
-                  <!--<img src="..." class="card-img-" alt="...">-->
-                  <div class="card-body">
-                    <h2 class="card-title">Pacote Pessoal</h2>
-                    <h4 class="card-text">Por 25€</h4>
-                    <p class="card-text"><small class="text-left">
-                     <ul>
-                      <li>Criar listas personalizadas para 10 produtos diferentes.</li>
-                      <li>Editar todos os dados visíveis.</li>
-                      <li>Associar várias imagens ao mesmo produto.</li>
-                    </ul>
-                  </small></p>
-                </div>
-              </div>
-              <div class="card">
+            </div>
+            <div class="card">
+                <!--<img src="..." class="card-img-" alt="...">-->
                 <div class="card-body">
-                  <h2 class="card-title">Pacote Profissional</h2>
-                  <h4 class="card-text">Por 40€</h4>
-                  <p class="card-text"><small class="text-left">
-                    <ul><li> Criar listas ilimitadas.</li>
-                      <li> </li>
-                      <li>Acesso à sua conta em qualquer dispositivo móvel.</li>
-                    </ul> </small></p>
-                  </div>
+                    <img src="imagens\Icons-02.jpg" class= Icons>
+                    <h2 class="card-title">Pacote Pessoal</h2>
+                    <h5 class="card-text">Por 25€</h5>
+                    <p class="card-text"><small class="text-left">
+                        <ul>
+                            <li>Criar listas personalizadas para 10 produtos diferentes.</li>
+                            <li>Editar todos os dados visíveis.</li>
+                            <li>Associar várias imagens ao mesmo produto.</li>
+                        </ul>
+                    </small></p>
+                    <button type="submit" class="btn btn-success buttonV" id="buttonAdiraJa">Aquirir</button>
                 </div>
-              </section>
-
-              <section class="section-grey section-top-border" id="contacts">
-                  <div class="col-md-12 text-center">
-                <div class="p-3 mb-2 bg-info text-white text-uppercase">CONTACTOS</div>
-                <div class="container">
-                  <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="imagens\Icons-03.jpg" class= Icons>
+                    <h2 class="card-title">Pacote Profissional</h2>
+                    <h5 class="card-text">Por 40€</h5>
+                    <p class="card-text"><small class="text-left">
+                        <ul>
+                            <li> Criar listas ilimitadas.</li>
+                            <li>Acesso à sua conta em qualquer dispositivo móvel.</li>
+                            <li>subscrição por 2 anos</li>
+                        </ul>
+                    </p>
+                    <button type="submit" class="btn btn-success buttonV" id="buttonAdiraJa">Aquirir</button>
                 </div>
-              </div>
-            </section>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-            <footer></footer>
+<br>
+<br>
 
 
-
-          </body>
-          </html>
-
+<div class="col-md-12 text-center">
+    <div class="p-3 mb-4 bg-info text-white text-uppercase">CONTACTOS</div>
 
 
+    <div class="row">
+        <div class="col-md-6">
 
+            <h4>Como nos encontrar</h4>
 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.9624830080397!2d-9.1405096843731!3d39.402354824625405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18b3a4441b2e53%3A0x196879cf9e932b4d!2sSILOS%20Contentor%20Criativo!5e0!3m2!1spt-PT!2spt!4v1568384964717!5m2!1spt-PT!2spt" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
+            <br>
+            <br>
+            <br>
+            <h5><b>Morada:</b> R. Filinto Elísio 42, Caldas da Rainha</h5>
 
+            <h5> <a href="mailto:contact@youremail.com"><b>E-mail:</b> smac@gmail.com</a></h5>
+
+            <h5><b>Tel.:</b> +351 933 553 399</h5>
+
+        </div>
+
+         
+        <div class="col-md-6">
+            <h4>Contacte-nos</h4>
+                 <div class="row">
+                    <!--begin success message -->
+                    <p class="contact_success_box" style="display:none;">Recebemos a sua mensagem, em breve contacteremos, obrigada!</p>
+                    <!--end success message -->
+                    <br>
+                    <br>
+                    <!--begin contact form -->
+                    <form id="contact-form" class="contact" action="php/contact.php" method="post">
+                    
+                    <div class="form-group">
+                        <input class="contact-input white-input form-control" required="" name="contact_names" placeholder="Nome completo*" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="contact-input white-input form-control" required="" name="contact_email" placeholder="Endereço e-mail*" type="email">
+                    </div>
+                    <div class="form-group">
+                        <input class="contact-input white-input form-control" required="" name="contact_phone" placeholder="Número telefone*" type="text">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="contact-commnent white-input form-control" rows="2" cols="115" name="contact_message" placeholder="Mensagem..."></textarea>
+                    </div>
+                    </form>
+                    
+                </div>
+                <button type="submit" class="btn btn-success buttonV" id="buttonEnviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<br>
+<br>
+<br>
+<footer>
+    <div class="p-2 mb-100 bg-info text-white text-center"> Copyright © 2019 Essentials. Designed by SMAC-Portugal.</div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>   
+<script type="text/javascript">
+    $(".menu-item").click(function() {
+
+        $(document).ready(function(){
+            $(document).scrollTop( parseInt($(window).scrollTop()-75) );
+        });
+    });
+</script>
+
+</body>
+</html>
